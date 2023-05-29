@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "lib-dzne-data"
+version = "0.1.3"
+description = "Libary for handling data. "
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Johannes Horler", email = "johannes.horler@dzne.de" }]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = []
+dependencies = [
+    'pandas>=1.4.2',
+    'Bio>=1.5.3',
+    'lib-dzne-filedata>=0.1.2',
+]
+requires-python = ">=3.11"
+
